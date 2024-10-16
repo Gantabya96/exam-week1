@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #677be6, #754fa7);
+    font-family: Arial, sans-serif;
+}
+
+.reg-card {
+    width: 475px;
+    height: 430px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reg-card h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #333;
+}
+
+.dis-flex{
+    display: flex;
+    column-gap: 30px;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Radio Section */
+.radio-options {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.radio-options label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.radio-label label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Buttons Section */
+.form-actions {
+    margin-top: 20px;
+}
+
+.reset-btn,
+.submit-btn {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reset-btn {
+    background: linear-gradient(to bottom right, #ff7f50, #ff6347);
+    color: #fff;
+}
+
+.submit-btn {
+    background: linear-gradient(to bottom right, #677be6, #754fa7);
+    color: #fff;
+}
+
+.reset-btn:hover {
+    background: linear-gradient(to bottom right, #ff6347, #ff7f50);
+}
+
+.submit-btn:hover {
+    background: linear-gradient(to bottom right, #754fa7, #677be6);
+}
